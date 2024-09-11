@@ -10,7 +10,7 @@ export default function Logout(){
     const router = useRouter();
     const logout = async () =>{
         signOut({redirect:false});
-        router.push("/")
+        router.push("/auth/login")
     }
     return <Container type="center">
         <div className="hover:scale-150 transition-all cursor-pointer" onClick={logout}>
