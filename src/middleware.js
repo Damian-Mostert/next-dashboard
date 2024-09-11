@@ -8,7 +8,7 @@ export async function middleware(req) {
   const { pathname } = req.nextUrl;
 
   if ((pathname.startsWith("/portal/")) && !token) {
-    return NextResponse.redirect(new URL("/portal", req.url));
+    return NextResponse.redirect(new URL("/auth/login", req.url));
   }
 
   return NextResponse.next();
