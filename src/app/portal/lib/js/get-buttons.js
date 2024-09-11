@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import useUser from "@src/lib/js/use-user";
 
-export default function getButtons(){
+export default function GetButtons(){
     const params = useParams();
     const {user} = useUser();
     const buttons = {
@@ -40,6 +40,5 @@ export default function getButtons(){
             link:`?modal=filter`
         };
     }
-    console.info(buttons)
     return buttons;
 }
