@@ -5,6 +5,7 @@ import providers from "./providers";
 const root = process.env.NEXT_PUBLIC_NEXT_URL+"/"
 
 const handler = NextAuth({
+  debug: true,
   providers,
   pages: {
     signIn: root,

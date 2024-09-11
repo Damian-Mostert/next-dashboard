@@ -7,7 +7,7 @@ export async function middleware(req) {
   const token = await getToken({ req, secret });
   const { pathname } = req.nextUrl;
 
-  if ((pathname.startsWith("/portal/")) && !token) {
+  if ((pathname.startsWith("/portal")) && !token) {
     return NextResponse.redirect(new URL("/auth/login", req.url));
   }
 
