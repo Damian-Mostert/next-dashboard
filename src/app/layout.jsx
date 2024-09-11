@@ -1,6 +1,5 @@
 "use client";
 
-import "./web/styles/global.scss";
 import { SessionProvider } from "next-auth/react";
 import Modal from "@portal/lib/components/global/modal"
 import { ThemeProvider } from "@src/lib/js/use-theme";
