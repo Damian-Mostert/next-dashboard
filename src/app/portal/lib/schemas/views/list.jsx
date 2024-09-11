@@ -1,4 +1,3 @@
-import 'react-resizable/css/styles.css';
 import { useSearchParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import DataTable from 'react-data-table-component';

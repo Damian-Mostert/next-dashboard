@@ -9,18 +9,16 @@ import { Suspense } from "react";
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <Suspense fallback={<>Please wait...</>}>    
             <SessionProvider>
                 <ThemeProvider>
                     <UserProvider>
                         <body>
                             {children}
-                            <Modal/>
+                            <Suspense fallback={<></>}><Modal/></Suspense>
                         </body>
                     </UserProvider>
                 </ThemeProvider>
             </SessionProvider>
-            </Suspense>
         </html>
     );
 }
