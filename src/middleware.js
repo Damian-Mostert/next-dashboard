@@ -15,5 +15,5 @@ export async function middleware(req) {
 }
 
 export const config = {
-  matcher: ["/portal/:path*/:path*","/api/portal/:path*"],
+  matcher: ["/portal/:path*","/api/portal/:path*"],
 };
