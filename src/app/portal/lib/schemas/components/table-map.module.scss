@@ -1,0 +1,24 @@
+.body {
+	@apply p-4 flex w-full;
+}
+.title{
+	@apply min-w-32;
+}
+.data{
+	@apply flex w-full items-center
+}
+.vertical-wrapper {
+	@apply flex flex-col w-full
+} 
+.horizontal-wrapper {
+	@apply flex flex-row;
+} 
+.number,.string,.array,.object,.title {
+	@apply rounded-lg p-4 text-center mb-2 border;
+	input{
+		@apply mx-4
+	}
+}
+.add{
+	@apply border w-6 h-6 rounded-full flex items-center justify-center m-auto mt-2;
+}

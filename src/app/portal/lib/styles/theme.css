@@ -1,0 +1,10 @@
+html{
+    --borders:#999;
+    --bg:white;
+    --text:#555
+}
+html[theme="dark"]{
+    --borders:#666;
+    --bg:#444;
+    --text:#eee
+}

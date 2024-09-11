@@ -1,0 +1,30 @@
+@import "./theme.css";
+body{
+    @apply w-screen h-screen flex;
+    background: var(--bg);
+    *{
+        @apply font-thin;
+        color:var(--text);
+        border-color: var(--borders);
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    input{
+        @apply w-full p-1 px-2 border rounded-md text-sm focus:outline-none;
+        background: var(--bg);
+    }
+}
+main[blocker="true"]{
+    @apply w-screen h-screen fixed top-0 left-0 z-[9999] lg:hidden flex;
+    background: var(--bg);
+    &::after{
+        content: "The dashboard does not support mobile devices";
+        @apply m-auto p-4;
+    }
+}
+main[dashboard="true"]{
+    
+}
