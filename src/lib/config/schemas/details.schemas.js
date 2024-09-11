@@ -1,0 +1,39 @@
+export default {
+	content:{
+		pages:{
+			type:"details",
+		},
+		components:{
+			type:"details",
+		},
+		popups:{
+			type:"details",
+		},
+		data:{
+			type:"details",
+		},
+		apis:{
+			type:"details",
+		}
+	},
+	logs:{
+		users:{
+			type:"details",
+		},
+        pages:{
+			type:"details",
+		},
+		components:{
+			type:"details",
+		},
+		apis:{
+			type:"details",
+		}
+	},
+	user:{
+		all:{
+			type:"details",
+		}
+	},
+	
+}

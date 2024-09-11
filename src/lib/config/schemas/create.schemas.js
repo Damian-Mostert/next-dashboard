@@ -1,0 +1,19 @@
+export default {
+    content:{
+        pages:{
+            type:"editor",
+        },
+        components:{
+            type:"editor",
+        },
+        popups:{
+            type:"editor",
+        },
+        data:{
+            type:"editor",
+        },
+        apis:{
+            type:"editor",
+        }
+    }
+}

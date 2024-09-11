@@ -1,0 +1,19 @@
+export default {
+    content:{
+        pages:{
+            type:"deleter",
+        },
+        components:{
+            type:"deleter",
+        },
+        popups:{
+            type:"deleter",
+        },
+        data:{
+            type:"deleter",
+        },
+        apis:{
+            type:"deleter",
+        }
+    }
+}
