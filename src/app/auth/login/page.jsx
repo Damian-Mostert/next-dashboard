@@ -1,6 +1,6 @@
 "use client";
 
-import "@portal/lib/styles/globals.scss"
+import "@portal/lib/styles/global.scss"
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
