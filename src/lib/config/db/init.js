@@ -5,5 +5,5 @@ try{
         pass:process.env.MONGODB_PASS,
     })
 }catch(e){
-    console.error(e)
+    console.error("Mongoose error",e)
 }
